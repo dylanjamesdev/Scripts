@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## CloudFlare Rules & Tools
 
-You can use the [editor on GitHub](https://github.com/MaximKing1/Scripts/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+### DDoS Firewall Rules
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MaximKing1/Scripts/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+`
+(http.user_agent contains "okhttp") or (http.user_agent contains "nikto") or (http.user_agent contains "httrack") or (http.user_agent contains "burp") or (http.user_agent contains "wget") or (http.user_agent contains "metasploit") or (http.user_agent contains "grabber") or (http.user_agent contains "skipfish") or (http.user_agent contains "screaming") or (http.user_agent contains "scrapy") or (http.user_agent contains "heritrix") or (http.user_agent contains "xapian") or (http.user_agent contains "wordpress") or (http.user_agent contains "archive") or (http.user_agent contains "nmap") or (http.user_agent contains "sucker") or (http.user_agent contains "snag") or (http.user_agent contains "check") or (http.user_agent contains "PECL") or (http.user_agent contains "urllib") or (http.user_agent contains "snoopy") or (http.user_agent contains "steeler") or (http.user_agent contains "SBIder") or (http.user_agent contains "lwp") or (http.user_agent contains "sitecheck") or (http.user_agent contains "acunetix") or (http.user_agent contains "offline") or (http.user_agent contains "HTMLParser") or (http.user_agent contains "Copier") or (http.user_agent contains "EmailWolf") or (http.user_agent contains "Gregarius") or (http.user_agent contains "wii") or (http.user_agent contains "libnup") or (http.user_agent contains "Dillo") or (http.user_agent contains "Morfeus") or (http.user_agent contains "ZmEu") or (http.user_agent contains "fuck") or (http.user_agent contains "shit") or (http.user_agent contains "Gimmie") or (http.user_agent contains "larbin") or (http.user_agent contains "offline") or (http.user_agent contains "Fuzz") or (http.user_agent contains "Survey") or (http.user_agent contains "Reaper") or (http.user_agent contains "Teleport") or (http.user_agent contains "Extractor") or (http.user_agent contains "riddler") or (http.user_agent contains "apimon") or (http.user_agent contains "Nuclei") or (http.user_agent contains "CheckHost") or (http.user_agent contains "cr4nk") or (http.user_agent contains "pedo") or (http.user_agent contains "yourmuma") or (ip.src eq 127.0.0.1) or (http.request.version eq "HTTP/1.0") or (ip.src eq 192.168.1.1) or (http.user_agent eq "") or (http.user_agent contains "nigga") or (ip.src eq 192.168.0.1) or (http.user_agent eq "FuckME") or (http.user_agent eq "ubermetrics-technologies.com") or (http.user_agent eq "internetVista\ monitor") or (http.user_agent eq "AfD-Verbotsverfahren") or (http.user_agent eq "Extreme\ Picture\ Finder")
+`
